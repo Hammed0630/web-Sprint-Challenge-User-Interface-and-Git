@@ -31,6 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
 ol, ul {
 	list-style: none;
 }
@@ -95,7 +100,7 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -104,12 +109,38 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes{
+    display: flex;
+
+}
+.box1{ 
+    background-color:teal ;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral ;
+
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color:forestgreen ;
+}
+.box7{
+    background-color: darkorchid;
 }
 
 .bottom-content {
